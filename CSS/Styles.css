@@ -1,0 +1,70 @@
+@font-face{ /*Importar la fuente comedik*/
+    src: url(fonts/Comedik.ttf);
+    font-family: comedik;
+}
+
+.contenedor{ /*Estilos del fondo*/
+    margin: auto;
+    display: flex;
+    width: 1280px;
+    height: 720px;
+    background-color: aqua; 
+}
+
+#titulo/* Estilos del titulo*/
+{
+    margin-top: 50%;
+    font-family: comedik;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: -4px 2px rgb(3, 182, 182);/*La sombra de la letra se realiza con este color*/
+}
+
+#game-over{ /*Estilos de la letra gameover */
+    font-family: comedik;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: -4px 2px rgb(3, 182, 182);/*La sombra de la letra se realiza con este color*/
+}
+
+#rellenar/*Estilos del div rellenar*/
+{
+    margin-top: 100px;
+    font-family: comedik;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: -4px 2px rgb(3, 182, 182);
+}
+
+#palabra{/*Estilos de la letra a ingresar para jugar*/
+    background-color: aqua; 
+    font-family: Arial;
+    text-align: center;
+    font-size: 30px;
+    width: 1280px;
+    height: 720px;
+}   
+
+#input-container{/*Estilos del div de ingreso de letras*/
+    margin-top: 60px;
+    text-align: center;
+    font-size: large;
+}
+#word-input{/*Estilos del input de palabra a*/
+    text-align: center;
+    font-size: large;
+}
+#character-input{/*Estilos del character imput*/
+    text-align: center;
+    font-size:x-large;
+    font-family: comedik;
+    width: 300px;
+    height: 30px;
+}
+  
+#start-button{/*Estilos del boton empezar*/
+    text-align: center;
+    font-size: x-large;
+    width: 150px;
+    font-family: comedik;
+}

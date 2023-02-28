@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorcado</title>
+    <link rel="stylesheet" href="CSS/Styles.css">
+</head>
+<body>
+    <div class="contenedor" width="1280" height="750">
+        <div id ="palabra">
+            <div id = "titulo">¡Ahorcado!</div> 
+            <div id = "rellenar"></div>
+            <button id="start-button">Empezar</button>
+            <div id = "game-over"style="height: 10px;"></div>
+            <input type="text" maxlength="1" id="character-input" placeholder="Ingresa una letra o numero"  >
+        </div>
+        <canvas id = "ahorcanvas" width="640" height="750"></canvas>
+    </div>
+    <div id="input-container">
+        <input type="text" id="word-input" placeholder="Ingresa una palabra">
+        
+    </div>
+    <script src="JS/Juego.js" type="module"></script>
+    <script src="node_modules/requirejs/require.js"></script><!-- Intento de utilizar node.js para leer las imagenes que se encuentran en la carpeta sin ponerlas una por una manualmente-->
+</body>
+</html>
